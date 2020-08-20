@@ -18,12 +18,12 @@ jobs:
     - name: Install Spartan theme
       run: npm i -g jsonresume-theme-spartan
     - name: Compile resume to HTML
-      run: resume export index.html
+      run: resume export -t spartan index.html
     - name: Compile resume to PDF
       run: resume export -t spartan resume.pdf
     - uses: EndBug/add-and-commit@v4
       with:
-        add: resume.pdf -t spartan index.html
+        add: resume.pdf index.html
         author_name: Nour Haridy
         author_email: nourharidy@gmail.com
         force: true
