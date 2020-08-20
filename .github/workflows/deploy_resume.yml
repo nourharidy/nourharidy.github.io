@@ -13,7 +13,7 @@ jobs:
     - name: Use Node v8
       uses: actions/setup-node@v1
       with:
-        node-version: '8.x'
+        node-version: '10.x'
     - name: Install resume CLI
       run: sudo npm i -g resume-cli
     - name: Compile resume to HTML
