@@ -14,9 +14,7 @@ jobs:
       with:
         node-version: '10.x'
     - name: Install resume CLI
-      run: |
-        npm config set puppeteer_skip_chromium_download true -g
-        npm i -g resume-cli
+      run: npm i -g resume-cli
     - name: Compile resume to HTML
       run: resume export index.html
     - name: Compile resume to PDF
