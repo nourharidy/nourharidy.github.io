@@ -1,133 +1,149 @@
 {
-  "meta": {
-    "theme": "elegant"
-  },
   "basics": {
     "name": "Nour Haridy",
-    "label": "Programmer",
+    "label": "Solidity & Javascript Developer",
     "picture": "",
     "email": "nourharidy@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "summary": "I'm an Ethereum developer and smart contract architect mainly interested in DeFi. I build wallets, dApps, smart contracts and developer tooling.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Cairo, Egypt"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "username": "@nourharidy",
+        "url": "https://twitter.com/nourharidy"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "Medium",
+        "username": "@nourharidy",
+        "url": "https://medium.com/@nourharidy"
+      },
+      {
+        "network": "Github",
+        "username": "nourharidy",
+        "url": "https://github.com/nourharidy"
+      },
+      {
+        "network": "Linkedin",
+        "username": "nourharidy",
+        "url": "https://linkedin.com/in/nourharidy"
+      },
+      {
+        "network": "ETH Research",
+        "username": "ETH Research",
+        "url": "https://ethresear.ch/u/nourharidy"
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "Mosendo",
+      "position": "Blockchain Architect",
+      "website": "http://mosendo.com",
+      "startDate": "2019-8-01",
+      "summary": "Mosendo aims to push DeFi towards mainstream adoption by providing instant and free transfers of interest-bearing stablecoins using state channels.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "I was tasked with refactoring the Mosendo wallet React Native app in order to add Connext V2 state channels and gasless MCD DAI payments. I also developed the meta-transaction relayer backend and the smart contracts.",
+        "I built gasless.mosendo.com, a gasless DAI on-chain wallet. ",
+        "I architected and implemented the limit order smart contracts used on the Synthetix.exchange.",
+        "I implemented the usynth.xyz interface for the UMA protocol."
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
+      "company": "Metacash Wallet",
+      "position": "Co-founder & Developer",
+      "website": "https://medium.com/lamarkaz/dai-in-the-hands-of-all-8ed335879ae9",
+      "startDate": "2019-1-01",
+      "endDate": "2019-7-01",
+      "summary": "Metacash a gasless non-custodial wallet that allowed SAI payments with fees in SAI instead of Ether",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "In January 2019, I published an architecture for backward-compatible gasless token transfers now used by projects such as Coinbase Commerce.",
+        "I implemented the same architecture in the form of smart contracts, a relayer and Android App (built with Cordova) in the Metacash Smart Wallet for SAI before native gasless payments were added later to MCD DAI.",
+        "The contracts that I wrote were externally audited for security vulnerabilities by Security Innovation: shorturl.at/pCEJ9"
       ]
-    }
-  ],
-  "education": [
+    },
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+      "company": "BountyHive",
+      "position": "Web3 Engineer (Part-Time)",
+      "website": "https://bountyhive.io/",
+      "startDate": "2018-9-01",
+      "endDate": "2019-8-01",
+      "summary": "Bountyhive is a bounty hunting platform, connecting ICOs & bounty hunters",
+      "highlights": [
+        "I implemented the frontend of BountyHive's TokenBatch project (built with Vue.js), a batch transfer tool that saves drastically on gas costs by aggregating up to a hundred transfers of any token in one transaction.",
+        "TokenBatch helps BountyHive's clients distribute airdrops and token dividends but can also be used by anyone at https://tokenbatch.io"
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Smart Contract Development",
+      "level": "advanced",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Solidity",
+        "Truffle",
+        "Buidler",
+        "Waffle",
+        "Proxy pattern"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Frontend Javascript",
+      "level": "advanced",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Vue.js",
+        "Ethers.js",
+        "Web3.js",
+        "Storybook",
+        "Cordova/Phonegap"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "level": "intermediate",
+      "keywords": [
+        "Express.js",
+        "Firebase functions",
+        "CLIs",
+        "Jest"
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "level": "intermediate",
+      "keywords": [
+        "Github Actions",
+        "Netlify",
+        "Bitrise"
       ]
     }
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "Arabic",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Politics",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "US",
+        "Middle East"
       ]
-    }
-  ],
-  "references": [
+    },
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "Gaming",
+      "keywords": [
+        "Age of Empires",
+        "League of Legends",
+        "Fortnite"
+      ]
     }
   ]
 }
