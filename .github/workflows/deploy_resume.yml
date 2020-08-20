@@ -7,8 +7,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    env:
-      PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
     steps:
     - uses: actions/checkout@v2
     - name: Use Node v10
@@ -16,7 +14,9 @@ jobs:
       with:
         node-version: '10.x'
     - name: Install resume CLI
-      run: sudo npm i -g resume-cli
+      run: |
+        npm config set puppeteer_skip_chromium_download true -g
+        sudo npm i -g resume-cli
     - name: Compile resume to HTML
       run: resume export index.html
     - name: Compile resume to PDF
