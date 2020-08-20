@@ -41,7 +41,7 @@
       "company": "Mosendo",
       "position": "Blockchain Architect",
       "website": "http://mosendo.com",
-      "startDate": "2019-8-01",
+      "startDate": "2019-08-01",
       "summary": "Mosendo aims to push DeFi towards mainstream adoption by providing instant and free transfers of interest-bearing stablecoins using state channels.",
       "highlights": [
         "I was tasked with refactoring the Mosendo wallet React Native app in order to add Connext V2 state channels and gasless MCD DAI payments. I also developed the meta-transaction relayer backend and the smart contracts.",
@@ -54,8 +54,8 @@
       "company": "Metacash Wallet",
       "position": "Co-founder & Developer",
       "website": "https://medium.com/lamarkaz/dai-in-the-hands-of-all-8ed335879ae9",
-      "startDate": "2019-1-01",
-      "endDate": "2019-7-01",
+      "startDate": "2019-01-01",
+      "endDate": "2019-07-01",
       "summary": "Metacash a gasless non-custodial wallet that allowed SAI payments with fees in SAI instead of Ether",
       "highlights": [
         "In January 2019, I published an architecture for backward-compatible gasless token transfers now used by projects such as Coinbase Commerce.",
@@ -67,8 +67,8 @@
       "company": "BountyHive",
       "position": "Web3 Engineer (Part-Time)",
       "website": "https://bountyhive.io/",
-      "startDate": "2018-9-01",
-      "endDate": "2019-8-01",
+      "startDate": "2018-09-01",
+      "endDate": "2019-08-01",
       "summary": "Bountyhive is a bounty hunting platform, connecting ICOs & bounty hunters",
       "highlights": [
         "I implemented the frontend of BountyHive's TokenBatch project (built with Vue.js), a batch transfer tool that saves drastically on gas costs by aggregating up to a hundred transfers of any token in one transaction.",
