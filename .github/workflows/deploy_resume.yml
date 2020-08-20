@@ -15,6 +15,8 @@ jobs:
         node-version: '10.x'
     - name: Install resume CLI
       run: npm i -g resume-cli
+    - name: Install Spartan theme
+      run: npm i -g jsonresume-theme-spartan
     - name: Compile resume to HTML
       run: resume export index.html
     - name: Compile resume to PDF
