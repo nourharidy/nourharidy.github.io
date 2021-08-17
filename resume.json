@@ -4,7 +4,7 @@
     "label": "Solidity & Javascript Developer",
     "picture": "",
     "email": "nourharidy@gmail.com",
-    "summary": "I'm an Ethereum developer and smart contract architect mainly interested in DeFi. I build wallets, dApps, smart contracts and developer tooling.",
+    "summary": "DeFi protocol developer & architect. Founder of inverse.finance. 4 years Solidity & JS experience.",
     "location": {
       "city": "Cairo, Egypt"
     },
@@ -28,25 +28,33 @@
         "network": "Linkedin",
         "username": "nourharidy",
         "url": "https://linkedin.com/in/nourharidy"
-      },
-      {
-        "network": "ETH Research",
-        "username": "ETH Research",
-        "url": "https://ethresear.ch/u/nourharidy"
       }
     ]
   },
   "work": [
     {
+      "company": "Inverse Finance",
+      "position": "Founder & DeFi developer",
+      "website": "http://inverse.finance",
+      "startDate": "2020-12-01",
+      "summary": "Inverse DAO is a community-owned on-chain DAO focused on building DeFi products that offer better lending, borrowing, stablecoins and synthetic assets.",
+      "highlights": [
+        "I founded and fair-launched Inverse Finance in late 2020 as an on-chain DAO with over 70% participation rate in one vote.",
+        "Inverse governance token INV reached over $100M circulating market cap at its peak",
+        "I designed and built yield dollar-cost averaging, lending and borrowing, decentralized stablecoin and insurance protocols that handled up to $50M in user deposits without a single security incident (unaudited)"
+      ]
+    },
+    {
       "company": "Mosendo",
       "position": "Blockchain Architect",
       "website": "http://mosendo.com",
       "startDate": "2019-08-01",
+      "endDate": "2020-08-01",
       "summary": "Mosendo aims to push DeFi towards mainstream adoption by providing instant and free transfers of interest-bearing stablecoins using state channels.",
       "highlights": [
         "I was tasked with refactoring the Mosendo wallet React Native app in order to add Connext V2 state channels and gasless MCD DAI payments. I also developed the meta-transaction relayer backend and the smart contracts.",
         "I built gasless.mosendo.com, a gasless DAI on-chain wallet. ",
-        "I architected and implemented the limit order smart contracts used on the Synthetix.exchange.",
+        "I architected and implemented the limit order smart contracts used on Synthetix.exchange.",
         "I implemented the usynth.xyz interface for the UMA protocol."
       ]
     },
@@ -127,23 +135,6 @@
     {
       "language": "English",
       "fluency": "Fluent"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Politics",
-      "keywords": [
-        "US",
-        "Middle East"
-      ]
-    },
-    {
-      "name": "Gaming",
-      "keywords": [
-        "Age of Empires",
-        "League of Legends",
-        "Fortnite"
-      ]
     }
   ]
 }
